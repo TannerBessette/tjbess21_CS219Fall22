@@ -1,3 +1,5 @@
+package HW1;
+
 // Exercise 2.3 from Textbook
 // Tanner Bessette
 public class Time {
