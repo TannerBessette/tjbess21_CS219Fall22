@@ -19,7 +19,7 @@ public class InvestmentCalculator {
         System.out.print("Please enter the number of times to compound per year as an integer: ");
         int n = s.nextInt();
 
-        System.out.printf("Your investment is worth $%.2f",
+        System.out.printf("Your investment is  worth $%.2f",
                 Investment.investment(c,r,t,n));
 
     }
