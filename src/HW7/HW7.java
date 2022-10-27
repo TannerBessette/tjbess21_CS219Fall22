@@ -47,7 +47,7 @@ import java.util.Arrays;
         public static boolean goofy(int [] nums, int target) {
             for (int i = 0; i < nums.length; i++){
                 for (int n = 0; n < nums.length - 1; n++){
-                    if (nums[i] + nums[n] == target) {
+                    if (nums[i] + nums[n] == target && i != n) {
                         return true;
                     }
                 }
