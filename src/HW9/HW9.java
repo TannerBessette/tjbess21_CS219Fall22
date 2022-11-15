@@ -24,7 +24,6 @@ public class HW9 {
         built in pow function.
      */
     public static BigInteger fastbigpow(BigInteger x, int y) {
-        BigInteger prod = BigInteger.ONE;
         int temp = 0;
         BigInteger t = BigInteger.ZERO;
         if (y == 0) {
